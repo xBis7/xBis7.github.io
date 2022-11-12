@@ -7,7 +7,7 @@
 }
 
 
-@media screen and (min-width: 1215px) {
+@media (min-width: 1215px) {
     .centered.div3 {
         position: absolute;
         top: 350%;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
     @media screen and (max-width: 1215px) {
         .centered.div3 {
             margin-top: 15em;
@@ -35,7 +35,7 @@
 }
 
 
-@media screen and (min-width: 675px) {
+@media (min-width: 675px) {
     @media screen and (max-width: 700px) {
         .centered.div3 {
             margin-top: 15em;
@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: 675px) {
+@media (max-width: 675px) {
     .card.raised.project.card {
         background-color: aliceblue;
     }

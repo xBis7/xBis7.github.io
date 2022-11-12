@@ -4,7 +4,7 @@
     background-color: aliceblue;
 }
 
-@media screen and (min-width: 1055px) {
+@media (min-width: 1055px) {
     .centered.div2 {
         position: absolute;
         top: 250%;
@@ -13,8 +13,8 @@
     }
 }
 
-@media screen and (min-width: 650px) {
-    @media screen and (max-width: 1055px) {
+@media (min-width: 650px) {
+    @media (max-width: 1055px) {
         .centered.div2 {
             margin-top: 15em;
             padding-left: 30px;
@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
     .centered.div2 {
         margin-top: 15em;
     }

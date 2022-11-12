@@ -19,14 +19,14 @@
     top: 0;
 }
 
-@media screen and (min-width: 650px) {
+@media (min-width: 650px) {
     .nav-logo {
         height: 50px;
         width: 110px;
     }   
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
     .nav-logo {
         display: none !important;
     }   
