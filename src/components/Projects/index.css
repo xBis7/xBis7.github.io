@@ -1,0 +1,54 @@
+.Projects {
+    padding: 40px;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(8, 49, 97);
+    color: aliceblue;
+}
+
+
+@media screen and (min-width: 1215px) {
+    .centered.div3 {
+        position: absolute;
+        top: 350%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+    
+    .card.raised.project.card {
+        font-size: 18px;
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    @media screen and (max-width: 1215px) {
+        .centered.div3 {
+            margin-top: 15em;
+        }
+        
+        .card.raised.project.card {
+            font-size: 18px;
+            background-color: aliceblue;
+        }
+    }
+}
+
+
+@media screen and (min-width: 675px) {
+    @media screen and (max-width: 700px) {
+        .centered.div3 {
+            margin-top: 15em;
+        }
+    
+        .card.raised.project.card {
+            background-color: aliceblue;
+        }   
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .card.raised.project.card {
+        background-color: aliceblue;
+    }
+}

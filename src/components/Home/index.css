@@ -1,0 +1,14 @@
+.Home {
+    padding: 40px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    /* background-color: #0f0f0f; */
+    color: silver;
+}
+
+.centered.div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}

@@ -1,0 +1,37 @@
+.NavigationBar {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.788);
+}
+
+.menu {
+    justify-content: center;
+}
+
+.my.name {
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+@media screen and (min-width: 650px) {
+    .nav-logo {
+        height: 50px;
+        width: 110px;
+    }   
+}
+
+@media screen and (max-width: 650px) {
+    .nav-logo {
+        display: none !important;
+    }   
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}

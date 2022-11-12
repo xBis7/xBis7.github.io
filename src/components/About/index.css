@@ -1,0 +1,35 @@
+.About {
+    padding: 40px;
+    height: 100vh;
+    background-color: rgb(0, 88, 189);
+    color: rgb(230, 244, 255);
+}
+
+@media screen and (min-width: 700px) {
+    .centered.div1 {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .centered.div1 {
+        margin-top: 8em;
+    }
+}
+
+.name {
+    font-size: 56px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.about {
+    /* margin: 20px 150px 20px 150px; */
+    font-size: 18px;
+    text-align: justify;
+}

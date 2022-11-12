@@ -1,0 +1,32 @@
+.Contact {
+    padding: 40px;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 850px) {
+    .centered.div4 {
+        position: absolute;
+        top: 450%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+}
+
+@media screen and (min-width: 650px) {
+    @media screen and (max-width: 850px) {
+        .centered.div4 {
+            margin-top: 8em;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .centered.div4 {
+        margin-top: 8em;
+    }
+}
+
+.my.email {
+    cursor: pointer;
+}

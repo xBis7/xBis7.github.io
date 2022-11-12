@@ -1,0 +1,30 @@
+.Experience {
+    padding: 40px;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 1055px) {
+    .centered.div2 {
+        position: absolute;
+        top: 250%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+}
+
+@media screen and (min-width: 650px) {
+    @media screen and (max-width: 1055px) {
+        .centered.div2 {
+            margin-top: 15em;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .centered.div2 {
+        margin-top: 15em;
+    }
+}

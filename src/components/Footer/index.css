@@ -1,0 +1,22 @@
+.Footer {
+    width: 100%;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.footerIcon {
+    margin: 20px;
+}
+
+.footerIcon:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    -webkit-transform: scale(1.5);
+    transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    cursor: pointer;
+}
