@@ -3,7 +3,6 @@
     min-height: 100vh;
     background-color: rgb(8, 49, 97);
     color: aliceblue;
-    border: 5px solid black;
 
     /* Center child div vertically and horizontally */
     display: flex;
@@ -12,63 +11,18 @@
     justify-content: center;
 }
 
+.title {
+    font-family: monospace;
+    margin: 30px;
+    font-size: 5vh;
+}
+
 .centered.div3 {
-    border: 5px solid black;
     position: relative;
     max-height: inherit;
-    /* top: 350%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%);  */
 }
 
 .card.raised.project.card {
     font-size: 18px;
     background-color: aliceblue;
 }
-
-/* 
-@media (min-width: 1215px) {
-    .centered.div3 {
-        position: absolute;
-        top: 350%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
-    
-    .card.raised.project.card {
-        font-size: 18px;
-        background-color: aliceblue;
-    }
-}
-
-@media (min-width: 700px) {
-    @media screen and (max-width: 1215px) {
-        .centered.div3 {
-            margin-top: 15em;
-        }
-        
-        .card.raised.project.card {
-            font-size: 18px;
-            background-color: aliceblue;
-        }
-    }
-}
-
-
-@media (min-width: 675px) {
-    @media screen and (max-width: 700px) {
-        .centered.div3 {
-            margin-top: 15em;
-        }
-    
-        .card.raised.project.card {
-            background-color: aliceblue;
-        }   
-    }
-}
-
-@media (max-width: 675px) {
-    .card.raised.project.card {
-        background-color: aliceblue;
-    }
-} */

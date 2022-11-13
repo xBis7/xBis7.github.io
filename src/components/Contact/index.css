@@ -1,30 +1,24 @@
 .Contact {
     padding: 40px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: aliceblue;
+
+    /* Center child div vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (min-width: 850px) {
-    .centered.div4 {
-        position: absolute;
-        top: 450%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
+.title {
+    font-family: monospace;
+    margin: 30px;
+    font-size: 5vh;
 }
 
-@media (min-width: 650px) {
-    @media screen and (max-width: 850px) {
-        .centered.div4 {
-            margin-top: 8em;
-        }
-    }
-}
-
-@media (max-width: 650px) {
-    .centered.div4 {
-        margin-top: 8em;
-    }
+.centered.div4 {
+    position: relative;
+    max-height: inherit;
 }
 
 .my.email {
