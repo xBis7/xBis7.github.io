@@ -9,27 +9,35 @@
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.788);
 }
 
-.menu {
+.mobile-menu {
     justify-content: center;
 }
 
-.my.name {
+.mobile-submenu {
+    font-size: 4vw;
+    position: relative;
+    max-width: inherit;
+}
+
+.big-screen-menu {
+    justify-content: center;
+}
+
+.big-screen-my-name {
     position: absolute;
-    left: 15px;
-    top: 0;
+    left: 0;
+    padding: 5px;
 }
 
-@media (min-width: 650px) {
-    .nav-logo {
-        height: 50px;
-        width: 110px;
-    }   
+.big-screen-submenu {
+    font-size: 22px;
+    position: relative;
+    max-width: inherit;
 }
 
-@media (max-width: 650px) {
-    .nav-logo {
-        display: none !important;
-    }   
+.nav-logo {
+    height: 50px;
+    width: 110px;
 }
 
 .nav-logo:hover {

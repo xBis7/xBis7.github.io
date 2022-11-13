@@ -18,7 +18,7 @@ To deploy a ReactJs project to GitHub pages,
     * it will build the app
     * create a new branch called `gh-pages` 
     * deploy it in the new branch
- * You may need to go under your repo 
-    * `Settings` -> `Pages` -> `Branch` -> change branch to `gh-pages`.
+ * You need to change the default branch used for deployment 
+    * in your repo, under `Settings` -> `Pages` -> `Branch` -> change branch to `gh-pages`.
 
 After all the above you should be good to go.
