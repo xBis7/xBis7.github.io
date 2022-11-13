@@ -1,12 +1,32 @@
 .Projects {
     padding: 40px;
-    height: 100vh;
-    justify-content: center;
+    min-height: 100vh;
     background-color: rgb(8, 49, 97);
     color: aliceblue;
+    border: 5px solid black;
+
+    /* Center child div vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.centered.div3 {
+    border: 5px solid black;
+    position: relative;
+    max-height: inherit;
+    /* top: 350%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%);  */
+}
 
+.card.raised.project.card {
+    font-size: 18px;
+    background-color: aliceblue;
+}
+
+/* 
 @media (min-width: 1215px) {
     .centered.div3 {
         position: absolute;
@@ -51,4 +71,4 @@
     .card.raised.project.card {
         background-color: aliceblue;
     }
-}
+} */

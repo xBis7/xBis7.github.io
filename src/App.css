@@ -3,12 +3,6 @@
   background-color: rgb(8, 49, 97);
 }
 
-.title {
-  margin: 40px 10px 40px 10px;
-  font-size: 56px;
-  font-family: monospace;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
