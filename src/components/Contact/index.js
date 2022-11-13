@@ -18,6 +18,10 @@ export default function Contact() {
   const [confirmModal, setConfirmModal] = useState(false);
   const [emptyInfoModal, setEmptyInfoModal] = useState(false);
 
+  const service_id = process.env.REACT_APP_SERVICE_ID;
+  const template_id = process.env.REACT_APP_TEMPLATE_ID;
+  const user_id = process.env.REACT_APP_USER_ID;
+
   const emailToSend = {
     email: email,
     name: name,
@@ -34,10 +38,10 @@ export default function Contact() {
 
     if (email.length > 0 && message.length > 0) {
       send(
-        'service_touczur',
-        'template_3rpqij6',
+        service_id,
+        template_id,
         emailToSend,
-        'QafodhtEKVTt4ph66'
+        user_id
       ).then((response) => {
 
         setConfirmModal(true);
