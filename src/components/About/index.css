@@ -22,7 +22,22 @@
     max-height: inherit;
 }
 
-.about {
+.aboutReallyBigScreens {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.aboutBigScreens {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.aboutSmallScreens {
     font-size: 18px;
     text-align: justify;
 }
