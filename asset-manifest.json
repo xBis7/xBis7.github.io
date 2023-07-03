@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce330984.css",
-    "main.js": "/static/js/main.8d3ad318.js",
+    "main.js": "/static/js/main.f2c3f491.js",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/BISIAS.pdf": "/static/media/BISIAS.c51d680a2e510451abb6.pdf",
@@ -21,10 +21,10 @@
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
     "main.ce330984.css.map": "/static/css/main.ce330984.css.map",
-    "main.8d3ad318.js.map": "/static/js/main.8d3ad318.js.map"
+    "main.f2c3f491.js.map": "/static/js/main.f2c3f491.js.map"
   },
   "entrypoints": [
     "static/css/main.ce330984.css",
-    "static/js/main.8d3ad318.js"
+    "static/js/main.f2c3f491.js"
   ]
 }
