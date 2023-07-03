@@ -11,8 +11,6 @@ yarn-error.log
 package-lock.json
 bower_components
 
-/public
-
 *.sublime*
 
 psd

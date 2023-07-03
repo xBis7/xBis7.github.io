@@ -19,7 +19,10 @@ export default function Experience() {
         'Kubernetes', 
         'JUnit', 
         'Mockito', 
-        'Robot Framework '
+        'Robot Framework',
+        'Distributed Systems',
+        'Big Data',
+        'Open Source'
       ]
     },
     {
@@ -36,7 +39,7 @@ export default function Experience() {
         'Kubernetes', 
         'JUnit', 
         'Mockito', 
-        'Robot Framework '
+        'Robot Framework'
       ]
     }
   ]
